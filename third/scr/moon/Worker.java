@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Employees {
+public class Worker {
     private String surname;
     private String firstName;
     private String lastName;
@@ -13,7 +13,7 @@ public class Employees {
     private String position;
     private int salary;
 
-    public Employees(String surname, String firstName, String lastName, LocalDate birthDate, String position, int salary) {
+    public Worker(String surname, String firstName, String lastName, LocalDate birthDate, String position, int salary) {
         this.surname = surname;
         this.firstName = firstName;
         this.lastName = lastName;

@@ -7,11 +7,11 @@ import moon.*;
 
 public class Main {
     public static void main(String[] args) {
-        Employees vika = new Employees("Патина", "Вика", "Матросовна", LocalDate.of(1988, 12, 15), "Повар", 900);
-        Employees danil = new Employees("Круть", "Даниил", "Петрович", LocalDate.of(2005, 9, 22), "Официант", 110);
-        Employees vladim = new Employees("Пупкин", "Владимир", "Сергеевич", LocalDate.of(1987, 8, 23), "Бармен", 320);
-        Employees maksim = new Employees("Кошкин", "максим", "Никтошный", LocalDate.of(1992, 4, 8), "Повар холодного цеха", 980);
-        Employees roman = new Employees("Воробьев", "Роман", "Максимович", LocalDate.of(1999, 3, 8), "Дизайнер", 450);
+        Worker vika = new Worker("Патина", "Вика", "Матросовна", LocalDate.of(1988, 12, 15), "Повар", 900);
+        Worker danil = new Worker("Круть", "Даниил", "Петрович", LocalDate.of(2005, 9, 22), "Официант", 110);
+        Worker vladim = new Worker("Пупкин", "Владимир", "Сергеевич", LocalDate.of(1987, 8, 23), "Бармен", 320);
+        Worker maksim = new Worker("Кошкин", "максим", "Никтошный", LocalDate.of(1992, 4, 8), "Повар холодного цеха", 980);
+        Worker roman = new Worker("Воробьев", "Роман", "Максимович", LocalDate.of(1999, 3, 8), "Дизайнер", 450);
         
 
 // Задача 1. Сравнение с использованием компаратора
@@ -26,11 +26,11 @@ public class Main {
         Manager stepin = new Manager("Пушной", "Сергей", "Попович", LocalDate.of(1999, 3, 9), "Главарь", 100000);
 
         // Все сотрудники 
-        Employees[] employees = {vika, danil, vladim, roman, maksim, stepin};
+        Worker[] employees = {vika, danil, vladim, roman, maksim, stepin};
 
         System.out.println("==============");
         System.out.println("\nВсе сотрудники до повышения зарптаты: \n");
-        for (Employees employee : employees) {
+        for (Worker employee : employees) {
             System.out.println(employee.getString());
             System.out.println("-----------------");
         }
@@ -41,7 +41,7 @@ public class Main {
         Manager.upgradeGroup(employees, 1000);
 
         System.out.println("\nВсе сотрудники после повышения зарплаты: \n");
-        for (Employees employee : employees) {
+        for (Worker employee : employees) {
             System.out.println(employee.getString());
             System.out.println("-----------------");
         }}
