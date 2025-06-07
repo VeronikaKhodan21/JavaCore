@@ -16,7 +16,7 @@ public static List<LocalDate>  dateComparator(LocalDate a, LocalDate b) {
     }
 ````
 
-2. Специально для этого реализован класс Mamager. В классе есть [метод](https://github.com/VeronikaKhodan21/JavaCore/blob/main/third/scr/moon/Manamer.java#L13)
+2. Специально для этого реализован класс Mamager. В классе есть [метод](https://github.com/VeronikaKhodan21/JavaCore/blob/main/third/scr/moon/Manager.java#L13)
 ```
 public static void upgradeGroup(Worker[] employees, int salarySupplement) {
         for (Worker employee : employees) {
