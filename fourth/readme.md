@@ -7,10 +7,10 @@ _Задания:_
 "Зачет" - скриншот запущенного и функционирующего приложения dvwa-docker; скриншот успешного цикла CI/CD для проекта dvwa-docker
 "Незачет" - нет прикрепленных скриншотов
 ### Решения:
-1. В классе (BackupDir)[] реализован метод upBackup. Он возвращает Boolean для проверки. Резервная копия сохраняется в папке backup
-    Проверяли метод в (файле)[]
+1. В классе (BackupDir)[https://github.com/VeronikaKhodan21/JavaCore/edit/main/fourth/src/BackupDir.java] реализован метод upBackup. Он возвращает Boolean для проверки. Резервная копия сохраняется в папке backup
+    Проверяли метод в (файле)[https://github.com/VeronikaKhodan21/JavaCore/edit/main/fourth/src/Fourth.java]
 2. * Я решила, что состояния ячейки в поле определяется случайным образом
-* Класс (PlayGame)[] содержит все методы по заворачиванию, разворачиванию поля. Файл tot.txt в виде байтов содержит поле
+* Класс (PlayGame)[https://github.com/VeronikaKhodan21/JavaCore/edit/main/fourth/src/PlayGame.java] содержит все методы по заворачиванию, разворачиванию поля. Файл tot.txt в виде байтов содержит поле
 ![alt text](img/img1.png)
 
 Dockerfile: 
